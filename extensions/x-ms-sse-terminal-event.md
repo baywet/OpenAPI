@@ -27,7 +27,13 @@ paths:
                 anyOf:
                   - $ref: "#/components/schemas/Foo"
                   - $ref: "#/components/schemas/Finished"
-                    x-ms-sse-terminal-event: true
+components:
+  schemas:
+    Foo:
+      type: object
+    Finished:
+      type: object
+      x-ms-sse-terminal-event: true
 ```
 
 Used by: (informational)
