@@ -11,7 +11,6 @@ type: boolean
 ## Example
 
 ```yaml
-
 openapi: 3.2.0
 info:
   title: Example of streaming with terminal event.
