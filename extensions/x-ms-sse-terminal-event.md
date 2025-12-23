@@ -32,7 +32,7 @@ components:
     Foo:
       type: object
     Finished:
-      type: object
+      const: DONE
       x-ms-sse-terminal-event: true
 ```
 
