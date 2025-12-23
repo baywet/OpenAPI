@@ -18,6 +18,7 @@
 |[x-ms-parameter-location](https://github.com/Azure/autorest/blob/main/docs/extensions/readme.md#x-ms-parameter-location) | provides a mechanism to specify that the global parameter is actually a parameter on the operation and not a client property. |AutoRest| |
 |[x-ms-primary-error-message](x-ms-primary-error-message.md) | provides a hint to which property to use in an error type as the error message. | Kiota | |
 |[x-ms-reserved-parameter](x-ms-reserved-parameter.md) | provides details on whether a path parameter should be reserved in an URI template or not | Kiota | |
+|[x-ms-sse-terminal-event](x-ms-sse-terminal-event.md) | provides a hint to indicate which streaming event is terminal | TypeSpec |
 
 ## AI Plugin Generation Extensions
 
